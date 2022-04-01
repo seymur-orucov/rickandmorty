@@ -23,5 +23,5 @@ class PersonEntity {
 class LocationEntity {
   final String? name, url;
 
-  const LocationEntity(this.name, this.url);
+  const LocationEntity({this.name, this.url});
 }
